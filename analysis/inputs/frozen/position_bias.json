@@ -1,0 +1,134 @@
+{
+ "threshold": 0.5,
+ "per_model": [
+  {
+   "model": "audio_flamingo_3",
+   "fa_yesA": 0.091796875,
+   "fa_yesB": 0.05859375,
+   "asymmetry": 0.033203125,
+   "fa_balanced": 0.0751953125,
+   "rankfail": 0.03545759463344514,
+   "nongrounded": 0.1020603737422137,
+   "held_out": false,
+   "degenerate": false
+  },
+  {
+   "model": "ke_omni_r_3b",
+   "fa_yesA": 0.25390625,
+   "fa_yesB": 0.15625,
+   "asymmetry": 0.09765625,
+   "fa_balanced": 0.205078125,
+   "rankfail": 0.06089088680016347,
+   "nongrounded": 0.16959542296689825,
+   "held_out": true,
+   "degenerate": false
+  },
+  {
+   "model": "ke_omni_r_7b",
+   "fa_yesA": 1.0,
+   "fa_yesB": 0.0,
+   "asymmetry": 1.0,
+   "fa_balanced": 0.5,
+   "rankfail": 0.12037037037037036,
+   "nongrounded": 0.3917824074074074,
+   "held_out": true,
+   "degenerate": true
+  },
+  {
+   "model": "mimo_audio_7b",
+   "fa_yesA": 0.162109375,
+   "fa_yesB": 0.052734375,
+   "asymmetry": 0.109375,
+   "fa_balanced": 0.107421875,
+   "rankfail": 0.05941213258286429,
+   "nongrounded": 0.15572232645403378,
+   "held_out": false,
+   "degenerate": false
+  },
+  {
+   "model": "qwen25_omni_3b",
+   "fa_yesA": 0.1484375,
+   "fa_yesB": 0.193359375,
+   "asymmetry": 0.044921875,
+   "fa_balanced": 0.1708984375,
+   "rankfail": 0.04231830726770929,
+   "nongrounded": 0.12419503219871206,
+   "held_out": false,
+   "degenerate": false
+  },
+  {
+   "model": "qwen25_omni_7b",
+   "fa_yesA": 0.189453125,
+   "fa_yesB": 0.3671875,
+   "asymmetry": 0.177734375,
+   "fa_balanced": 0.2783203125,
+   "rankfail": 0.03572744014732965,
+   "nongrounded": 0.16906077348066298,
+   "held_out": false,
+   "degenerate": false
+  },
+  {
+   "model": "qwen2_audio_7b",
+   "fa_yesA": 0.142578125,
+   "fa_yesB": 0.8984375,
+   "asymmetry": 0.755859375,
+   "fa_balanced": 0.5205078125,
+   "rankfail": 0.09101516919486581,
+   "nongrounded": 0.30532866588875923,
+   "held_out": false,
+   "degenerate": true
+  },
+  {
+   "model": "qwen3_omni_30b",
+   "fa_yesA": 0.169921875,
+   "fa_yesB": 0.34765625,
+   "asymmetry": 0.177734375,
+   "fa_balanced": 0.2587890625,
+   "rankfail": 0.04943357363542739,
+   "nongrounded": 0.11053896326810848,
+   "held_out": false,
+   "degenerate": false
+  },
+  {
+   "model": "qwen_audio_aha_7b",
+   "fa_yesA": 0.09765625,
+   "fa_yesB": 0.171875,
+   "asymmetry": 0.07421875,
+   "fa_balanced": 0.134765625,
+   "rankfail": 0.03215434083601286,
+   "nongrounded": 0.10972668810289389,
+   "held_out": false,
+   "degenerate": false
+  },
+  {
+   "model": "step_audio2_mini",
+   "fa_yesA": 0.099609375,
+   "fa_yesB": 0.97265625,
+   "asymmetry": 0.873046875,
+   "fa_balanced": 0.5361328125,
+   "rankfail": 0.155668358714044,
+   "nongrounded": 0.3633671742808799,
+   "held_out": false,
+   "degenerate": true
+  }
+ ],
+ "n_all": 10,
+ "n_clean": 7,
+ "degenerate_models": [
+  "ke_omni_r_7b",
+  "qwen2_audio_7b",
+  "step_audio2_mini"
+ ],
+ "all": {
+  "rho_fa_rankfail": 0.7333333333333332,
+  "rho_fa_nongrounded": 0.8181818181818182,
+  "rho_rankfail_asymmetry": 0.7939393939393938,
+  "rho_fa_asymmetry": 0.8666666666666665
+ },
+ "clean": {
+  "rho_fa_rankfail": 0.25,
+  "rho_fa_nongrounded": 0.5714285714285715,
+  "rho_rankfail_asymmetry": 0.42857142857142866,
+  "rho_fa_asymmetry": 0.7142857142857144
+ }
+}

@@ -1,0 +1,410 @@
+[
+  {
+    "panel": "baseline",
+    "model": "qwen2_audio_7b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/baseline/qwen2_audio_7b.jsonl.gz",
+    "sha256": "b3eb96caddba1a866e002bbc1d67d42eacaa5995ea74c6a03cd5dae1c5049330"
+  },
+  {
+    "panel": "baseline",
+    "model": "qwen25_omni_3b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/baseline/qwen25_omni_3b.jsonl.gz",
+    "sha256": "2695107eef47755e05deb5973ed35e2b1b85421abd1410f945d8eb46ce08350f"
+  },
+  {
+    "panel": "baseline",
+    "model": "qwen25_omni_7b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/baseline/qwen25_omni_7b.jsonl.gz",
+    "sha256": "3458f2cff67c94ad44b3fc51175f329a9c00eb4a1f4b2bfdfcfda415a93f321e"
+  },
+  {
+    "panel": "baseline",
+    "model": "qwen_audio_aha_7b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/baseline/qwen_audio_aha_7b.jsonl.gz",
+    "sha256": "5d678a1c0dc28244f196210dff350cb44048973120375c5d6524926eb61b0e0a"
+  },
+  {
+    "panel": "baseline",
+    "model": "step_audio2_mini",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/baseline/step_audio2_mini.jsonl.gz",
+    "sha256": "5222c43db791cd68791f464dbd3b34494ad7595b02d781bfe45145ebb4d8676c"
+  },
+  {
+    "panel": "baseline",
+    "model": "mimo_audio_7b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/baseline/mimo_audio_7b.jsonl.gz",
+    "sha256": "1ce1ad8ba16cffd9f5a28139906f3ccfca43e6066c5d0974db165762383fc749"
+  },
+  {
+    "panel": "baseline",
+    "model": "audio_flamingo_3",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/baseline/audio_flamingo_3.jsonl.gz",
+    "sha256": "78e35d197a2e3a4967f43f2f5cb5591c3c55458f162aed30a9adfa6a5e78bd88"
+  },
+  {
+    "panel": "baseline",
+    "model": "qwen3_omni_30b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/baseline/qwen3_omni_30b.jsonl.gz",
+    "sha256": "2556855eafd5495de32c467250b8dffb26f4bb6f743986df3e6efbb49220ba22"
+  },
+  {
+    "panel": "global_rms",
+    "model": "qwen2_audio_7b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/global_rms/qwen2_audio_7b.jsonl.gz",
+    "sha256": "9dd5f2b9f1a859629cb703788e4fbfac5e39d7e5c47eae93149e3b661b4820c2"
+  },
+  {
+    "panel": "global_rms",
+    "model": "qwen25_omni_3b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/global_rms/qwen25_omni_3b.jsonl.gz",
+    "sha256": "1cee62f674a024b0d29f01e4cc8ae3df45a605232648dae5d09e6709caeb2f81"
+  },
+  {
+    "panel": "global_rms",
+    "model": "qwen25_omni_7b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/global_rms/qwen25_omni_7b.jsonl.gz",
+    "sha256": "28c7ef2478ccdb49d035a222895834cbcfbe926b2b0ccdfb2b5029250bb422ff"
+  },
+  {
+    "panel": "global_rms",
+    "model": "qwen_audio_aha_7b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/global_rms/qwen_audio_aha_7b.jsonl.gz",
+    "sha256": "51df483e710cd21a237ed811fc0a6e3f43f17fbd19dfcc50df0f262fc6f15644"
+  },
+  {
+    "panel": "global_rms",
+    "model": "step_audio2_mini",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/global_rms/step_audio2_mini.jsonl.gz",
+    "sha256": "ea58717d6f3d0419d19056e90bf8767243b23e9614f20fc74748c0c3b4477396"
+  },
+  {
+    "panel": "global_rms",
+    "model": "mimo_audio_7b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/global_rms/mimo_audio_7b.jsonl.gz",
+    "sha256": "c181ab8206a7b17446395317248475f31c9ef1451cb0adbfd2453a8445b55928"
+  },
+  {
+    "panel": "global_rms",
+    "model": "audio_flamingo_3",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/global_rms/audio_flamingo_3.jsonl.gz",
+    "sha256": "3f1bed22e9ec46fdca3e47eb2cec7aab17aef9241924a31348cc6ae0cb54b013"
+  },
+  {
+    "panel": "global_rms",
+    "model": "qwen3_omni_30b",
+    "conditions": 3456,
+    "views": 11520,
+    "file": "data/scores/global_rms/qwen3_omni_30b.jsonl.gz",
+    "sha256": "d79a29156087c77292109426f69c3a8ab90d98aa178573f4a2604fb20181f63b"
+  },
+  {
+    "panel": "fixed",
+    "model": "qwen2_audio_7b",
+    "conditions": 192,
+    "views": 768,
+    "file": "data/scores/fixed/qwen2_audio_7b.jsonl.gz",
+    "sha256": "f99b322c7f4e34fc95c22ba503ec65e101c619868608ef023f2e146e8fdca2b6"
+  },
+  {
+    "panel": "fixed",
+    "model": "qwen25_omni_3b",
+    "conditions": 192,
+    "views": 768,
+    "file": "data/scores/fixed/qwen25_omni_3b.jsonl.gz",
+    "sha256": "9072e3d6bc0b865acfa3a0077bcc8548307b5a047e9a28f9556be52ad7c5afed"
+  },
+  {
+    "panel": "fixed",
+    "model": "qwen25_omni_7b",
+    "conditions": 192,
+    "views": 768,
+    "file": "data/scores/fixed/qwen25_omni_7b.jsonl.gz",
+    "sha256": "5c5a9a696eeb7470cfff0ed6ad6d1d0140c96e470f36b0272fc929c15fa0b9bc"
+  },
+  {
+    "panel": "fixed",
+    "model": "qwen_audio_aha_7b",
+    "conditions": 192,
+    "views": 768,
+    "file": "data/scores/fixed/qwen_audio_aha_7b.jsonl.gz",
+    "sha256": "c3e061afcf779507432529551790f8182f2f732fed1f7c6a14758d08eb723f97"
+  },
+  {
+    "panel": "fixed",
+    "model": "step_audio2_mini",
+    "conditions": 192,
+    "views": 768,
+    "file": "data/scores/fixed/step_audio2_mini.jsonl.gz",
+    "sha256": "8ccaa18431fa9d32d196c8efa0316ff600f661a2f1615bdfeac43fbab59be1d1"
+  },
+  {
+    "panel": "fixed",
+    "model": "mimo_audio_7b",
+    "conditions": 192,
+    "views": 768,
+    "file": "data/scores/fixed/mimo_audio_7b.jsonl.gz",
+    "sha256": "39c2271103f709cea08cc2a7ae7a931bc2be0b01b38d2bfbe74cdf8532f4c236"
+  },
+  {
+    "panel": "fixed",
+    "model": "audio_flamingo_3",
+    "conditions": 192,
+    "views": 768,
+    "file": "data/scores/fixed/audio_flamingo_3.jsonl.gz",
+    "sha256": "f1c06906db0202ce3655d9d3c8b311b5118d3ee97888ea406884357d3268fe8f"
+  },
+  {
+    "panel": "fixed",
+    "model": "qwen3_omni_30b",
+    "conditions": 192,
+    "views": 768,
+    "file": "data/scores/fixed/qwen3_omni_30b.jsonl.gz",
+    "sha256": "cc3570a43f3c9078e9b8ae1487131d7b0f9a8a06305436f30c8e83549c3a052e"
+  },
+  {
+    "panel": "prompt",
+    "model": "qwen2_audio_7b",
+    "conditions": 1536,
+    "views": 6144,
+    "file": "data/scores/prompt/qwen2_audio_7b.jsonl.gz",
+    "sha256": "e1539c350127073c1ab1ee41dc87fc251ca963f428e8067e9172d366451b3177"
+  },
+  {
+    "panel": "prompt",
+    "model": "qwen25_omni_3b",
+    "conditions": 1536,
+    "views": 6144,
+    "file": "data/scores/prompt/qwen25_omni_3b.jsonl.gz",
+    "sha256": "a278af08576d1868ef0de9ce99c56b9e0a8040746edaf807f938b533acc11c27"
+  },
+  {
+    "panel": "prompt",
+    "model": "qwen25_omni_7b",
+    "conditions": 1536,
+    "views": 6144,
+    "file": "data/scores/prompt/qwen25_omni_7b.jsonl.gz",
+    "sha256": "733e3ab5c65ca68a77d11f706371f89397b24eb72cb36119358068f9b0004c10"
+  },
+  {
+    "panel": "prompt",
+    "model": "qwen_audio_aha_7b",
+    "conditions": 1536,
+    "views": 6144,
+    "file": "data/scores/prompt/qwen_audio_aha_7b.jsonl.gz",
+    "sha256": "0050855fac4d53b736f6be873078041471d96160c1c1df0facc0b138a5aa3c58"
+  },
+  {
+    "panel": "prompt",
+    "model": "step_audio2_mini",
+    "conditions": 1536,
+    "views": 6144,
+    "file": "data/scores/prompt/step_audio2_mini.jsonl.gz",
+    "sha256": "3153c343bf18057fdeb69f6dca65a1afee02e88556633857c10fb82acca3016a"
+  },
+  {
+    "panel": "prompt",
+    "model": "mimo_audio_7b",
+    "conditions": 1536,
+    "views": 6144,
+    "file": "data/scores/prompt/mimo_audio_7b.jsonl.gz",
+    "sha256": "d156eb8fc435d868b50e19858cf2d15553a981951d394a71dfa8042a6a928a85"
+  },
+  {
+    "panel": "prompt",
+    "model": "audio_flamingo_3",
+    "conditions": 1536,
+    "views": 6144,
+    "file": "data/scores/prompt/audio_flamingo_3.jsonl.gz",
+    "sha256": "643c276b1f4faee76b15e6f238ebd69e48d23e40b6db8cccb5760ce81ecfd784"
+  },
+  {
+    "panel": "prompt",
+    "model": "qwen3_omni_30b",
+    "conditions": 1536,
+    "views": 6144,
+    "file": "data/scores/prompt/qwen3_omni_30b.jsonl.gz",
+    "sha256": "7b1d3112595f1e3677d4bfe2355ffd3d77d22663fc6c40c203b60733dcb600ab"
+  },
+  {
+    "panel": "absent",
+    "model": "qwen2_audio_7b",
+    "conditions": 512,
+    "views": 512,
+    "file": "data/scores/absent/qwen2_audio_7b.jsonl.gz",
+    "sha256": "07dea2f199f1758a2a44b292f7d25c3e436f75629ed95664dba7074d8165bd23"
+  },
+  {
+    "panel": "absent",
+    "model": "qwen25_omni_3b",
+    "conditions": 512,
+    "views": 512,
+    "file": "data/scores/absent/qwen25_omni_3b.jsonl.gz",
+    "sha256": "9d36868a693601d6ee252aa6fb699ec9be6aab0e318e956fdb62e30c979573fc"
+  },
+  {
+    "panel": "absent",
+    "model": "qwen25_omni_7b",
+    "conditions": 512,
+    "views": 512,
+    "file": "data/scores/absent/qwen25_omni_7b.jsonl.gz",
+    "sha256": "407f951dd6245b3881fbfde0756100ec206f97af0ae4a96eba7b18a470c9cb37"
+  },
+  {
+    "panel": "absent",
+    "model": "qwen_audio_aha_7b",
+    "conditions": 512,
+    "views": 512,
+    "file": "data/scores/absent/qwen_audio_aha_7b.jsonl.gz",
+    "sha256": "ba0d02e82c80e158f0796c35a17081988daf196e0995a97e2da6e2c0fee027f3"
+  },
+  {
+    "panel": "absent",
+    "model": "step_audio2_mini",
+    "conditions": 512,
+    "views": 512,
+    "file": "data/scores/absent/step_audio2_mini.jsonl.gz",
+    "sha256": "b32121b82ab9953486b2eaeff992b6478495365d6adf9f06c52b8282f95c11e9"
+  },
+  {
+    "panel": "absent",
+    "model": "mimo_audio_7b",
+    "conditions": 512,
+    "views": 512,
+    "file": "data/scores/absent/mimo_audio_7b.jsonl.gz",
+    "sha256": "1e6842786f6736f27ee35e8cf48044c0711ae878777bbc933080b4dbfefaa62e"
+  },
+  {
+    "panel": "absent",
+    "model": "audio_flamingo_3",
+    "conditions": 512,
+    "views": 512,
+    "file": "data/scores/absent/audio_flamingo_3.jsonl.gz",
+    "sha256": "cc1997a585eadc13c09ce99d67002f58876edbca8cec57b3d817a50db4ddc628"
+  },
+  {
+    "panel": "absent",
+    "model": "qwen3_omni_30b",
+    "conditions": 512,
+    "views": 512,
+    "file": "data/scores/absent/qwen3_omni_30b.jsonl.gz",
+    "sha256": "135f62aacad78b6586dcfe577a744e0ba7ed8868789a5144771f857b8d794df8"
+  },
+  {
+    "panel": "repair",
+    "model": "qwen25_omni_7b",
+    "conditions": 2880,
+    "views": 11520,
+    "file": "data/scores/repair/qwen25_omni_7b.jsonl.gz",
+    "sha256": "c673807d93e12b5e12ebeb794e906ee80d3169d8bd52c406ac7e7700e77e4c90"
+  },
+  {
+    "panel": "repair",
+    "model": "step_audio2_mini",
+    "conditions": 2880,
+    "views": 11520,
+    "file": "data/scores/repair/step_audio2_mini.jsonl.gz",
+    "sha256": "0dee1b8985fd2aaaed241ebea947af25f209f994fbdc1b92d649b4d7802fd4f1"
+  },
+  {
+    "panel": "repair",
+    "model": "qwen3_omni_30b",
+    "conditions": 2880,
+    "views": 11520,
+    "file": "data/scores/repair/qwen3_omni_30b.jsonl.gz",
+    "sha256": "ca9958cd98841b10f72935d709dc091f40e079ee3173a2b62f327d944d755950"
+  },
+  {
+    "panel": "subst",
+    "model": "qwen2_audio_7b",
+    "conditions": 2880,
+    "views": 9600,
+    "file": "data/scores/subst/qwen2_audio_7b.jsonl.gz",
+    "sha256": "cfa3b8a79113c64f86328e86fdeb1883296453360185f1dbe5998c4afebb9ea7"
+  },
+  {
+    "panel": "subst",
+    "model": "qwen25_omni_3b",
+    "conditions": 2880,
+    "views": 9600,
+    "file": "data/scores/subst/qwen25_omni_3b.jsonl.gz",
+    "sha256": "6c6c3be373d6517fe1c697a7683d92935821e115a8878826f61c04089ec7b12e"
+  },
+  {
+    "panel": "subst",
+    "model": "qwen25_omni_7b",
+    "conditions": 2880,
+    "views": 9600,
+    "file": "data/scores/subst/qwen25_omni_7b.jsonl.gz",
+    "sha256": "3bef33ca63762323e9dc6f6eed670e21f58ed4dfbf7cfc8860ef8d255327e286"
+  },
+  {
+    "panel": "subst",
+    "model": "qwen_audio_aha_7b",
+    "conditions": 2880,
+    "views": 9600,
+    "file": "data/scores/subst/qwen_audio_aha_7b.jsonl.gz",
+    "sha256": "9161d0d6088fd1318482f50be0c6f7a6a3d89a6a15f5a9b9f8a3b3eda88f3b3c"
+  },
+  {
+    "panel": "subst",
+    "model": "step_audio2_mini",
+    "conditions": 2880,
+    "views": 9600,
+    "file": "data/scores/subst/step_audio2_mini.jsonl.gz",
+    "sha256": "e63af1893147e6e25bee67ac4bccd9e3785aa07f823761ce705ebdcc4670c044"
+  },
+  {
+    "panel": "subst",
+    "model": "mimo_audio_7b",
+    "conditions": 2880,
+    "views": 9600,
+    "file": "data/scores/subst/mimo_audio_7b.jsonl.gz",
+    "sha256": "4b5dc9e51e1237761cff5f7ecedbc60da3e211d363f9b127e62f6afbceb96a7f"
+  },
+  {
+    "panel": "subst",
+    "model": "audio_flamingo_3",
+    "conditions": 2880,
+    "views": 9600,
+    "file": "data/scores/subst/audio_flamingo_3.jsonl.gz",
+    "sha256": "75bf6a87ecdd03723022c51ae0c33162d53a171c6c330d799b976873b177f245"
+  },
+  {
+    "panel": "subst",
+    "model": "qwen3_omni_30b",
+    "conditions": 2880,
+    "views": 9600,
+    "file": "data/scores/subst/qwen3_omni_30b.jsonl.gz",
+    "sha256": "baa188fea8b3f2830060577be4112330701a56735f39503773b3526576ee734e"
+  }
+]

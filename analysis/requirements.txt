@@ -1,0 +1,32 @@
+# Environment for the TRACE number reproduction (analysis/).
+#
+# Verified with the interpreter this package was built and run against:
+#   Python 3.13.12, numpy 2.5.0, matplotlib 3.11.1
+#
+# Only numpy and matplotlib are imported by the scripts in scripts/ -- verified
+# by grepping every import in the reproduction set:
+#   numpy                      build_attribution/revision/repair/category_structure/
+#                              probe/utility/subst/robust/matched/interface,
+#                              make_overview_figure
+#   matplotlib                 make_overview_figure only (Agg backend, bundled
+#                              DejaVu Sans, pdf.fonttype=42 -- no system fonts,
+#                              no LaTeX, no TeX distribution)
+#   stdlib only                checks.py, texnames.py, test_checks.py,
+#                              make_checks_table.py, make_contrast_table.py,
+#                              make_risk_table.py, run_all.py
+#                              (json, math, os, re, sys, wave, hashlib,
+#                               collections, pathlib, statistics, subprocess,
+#                               argparse, time, shutil, unittest)
+#
+# scipy is declared below because the surrounding project lists it, but NO
+# script in this reproduction imports it. Do not install it on this account.
+numpy>=2.0
+matplotlib>=3.8
+# scipy  # declared by the project, not imported by any script in this package
+
+# Deliberately NOT required:
+#   * a TeX distribution -- no LaTeX is compiled here; generated/*.tex are
+#     macro and tabular-body fragments that the paper \input{}s.
+#   * model-inference stacks (torch/transformers/...) -- every input under
+#     inputs/frozen/ is an already-scored export; no model is loaded.
+#   * network access -- nothing here fetches anything.

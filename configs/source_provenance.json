@@ -1,0 +1,377 @@
+[
+  {
+    "source": "code_icassp2027_20260901_r5/experiments/qsaec/run_stress.py",
+    "source_sha256": "de7d2ebb74be0000a3591a2a204f776adc216241d9fa4e4c245cbc5c662f3c17",
+    "output": "experiments/qsaec/run_stress.py"
+  },
+  {
+    "source": "code_icassp2027_20260901_r5/experiments/pri/diagnostic/adapters.py",
+    "source_sha256": "1046723fe0471f381d55241950795e51353e45f47770a16391c5af273bff6cf9",
+    "output": "experiments/pri/diagnostic/adapters.py"
+  },
+  {
+    "source": "code_icassp2027_20260901_r5/experiments/pri/diagnostic/models.py",
+    "source_sha256": "992c1f095f434c5e3d7186fd44875c4e14b418dbe939121b605dafcc20c01aea",
+    "output": "experiments/pri/diagnostic/models.py"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/baseline/qwen2_audio_7b.jsonl",
+    "source_sha256": "48d0cc8451e071baab743eeaa25b1d9c7b119183bda662acdc140f7c7554dbf3",
+    "output": "data/scores/baseline/qwen2_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/baseline/qwen25_omni_3b.jsonl",
+    "source_sha256": "e396ae630d46cb6e4533f1b1e17e25ddeff9d0891a084d9ec3149be4616c272c",
+    "output": "data/scores/baseline/qwen25_omni_3b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/baseline/qwen25_omni_7b.jsonl",
+    "source_sha256": "d0632c17f00f2b261be6daec49390898f4bbb4d433e2a90aefaa9dc4f1e824e9",
+    "output": "data/scores/baseline/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/baseline/qwen_audio_aha_7b.jsonl",
+    "source_sha256": "3fc6b8a009a5b200b1e9dd46add03bbc4ca03c20b1fd1f204ba12c0676c9c8da",
+    "output": "data/scores/baseline/qwen_audio_aha_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/baseline/step_audio2_mini.jsonl",
+    "source_sha256": "28320469c54e28b0b277bef83ecaf8b8bddee033d5846fe35113cb2b6ee29066",
+    "output": "data/scores/baseline/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/baseline/mimo_audio_7b.jsonl",
+    "source_sha256": "aa4acb5361c58eaf3fb1bcd9c8e9fab98ad36b9dfb775540258fd9c3f9bc8219",
+    "output": "data/scores/baseline/mimo_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/baseline/audio_flamingo_3.jsonl",
+    "source_sha256": "45472233a25da54b9a36b63015639034f2c06f9cd8af5363e3b4641ebdd8e9a8",
+    "output": "data/scores/baseline/audio_flamingo_3.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/baseline/qwen3_omni_30b.jsonl",
+    "source_sha256": "86f1a63c8e9342f1bb43590df2fdada477b0b0edbed33f62988adaad0c718a8c",
+    "output": "data/scores/baseline/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/global_rms/qwen2_audio_7b.jsonl",
+    "source_sha256": "b2cb91cba4cf5425abf4cd69786f0d632fcc03219dfbbf8a14cb256e5c51a627",
+    "output": "data/scores/global_rms/qwen2_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/global_rms/qwen25_omni_3b.jsonl",
+    "source_sha256": "1d00d9284ded3dd69153bf96bcdfc98f86c0fee78603b0b85a5cf391299fb27c",
+    "output": "data/scores/global_rms/qwen25_omni_3b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/global_rms/qwen25_omni_7b.jsonl",
+    "source_sha256": "8c5ff8871c6fb170d732a29575e9e2e047721bc9c197c3a73dfed745cdfd16c6",
+    "output": "data/scores/global_rms/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/global_rms/qwen_audio_aha_7b.jsonl",
+    "source_sha256": "a1f37abd587998f1e2b7403f8e299b82d3642645f409603575905af8ee474009",
+    "output": "data/scores/global_rms/qwen_audio_aha_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/global_rms/step_audio2_mini.jsonl",
+    "source_sha256": "7b5fc057fdd51e8530c0600bdf65ecfbf6613cc0bfb7c793b87f6d81130a19e8",
+    "output": "data/scores/global_rms/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/global_rms/mimo_audio_7b.jsonl",
+    "source_sha256": "47968f7ddf50c54e5d5b199f7a08e438d6cb4530ea2ed6dfc16c472a5a707833",
+    "output": "data/scores/global_rms/mimo_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/global_rms/audio_flamingo_3.jsonl",
+    "source_sha256": "c36f98c0fce98a2a66e35c1f76453f8d64f2c9edda5eeb9b3ff7bf511792c6c1",
+    "output": "data/scores/global_rms/audio_flamingo_3.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/global_rms/qwen3_omni_30b.jsonl",
+    "source_sha256": "98662c5352c309ae1087995e90731e55fcf37405ae44d502a46e93795300a2fb",
+    "output": "data/scores/global_rms/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/fixed/qwen2_audio_7b.jsonl",
+    "source_sha256": "c429aaef33d96745b45296d17ad64e7a86f3662da6ade63b45e9053fa75d2a3a",
+    "output": "data/scores/fixed/qwen2_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/fixed/qwen25_omni_3b.jsonl",
+    "source_sha256": "03f417fb88d5b2f4b455baba5a4e85687032fda74e47de06405ec4c816c3d632",
+    "output": "data/scores/fixed/qwen25_omni_3b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/fixed/qwen25_omni_7b.jsonl",
+    "source_sha256": "16c640b23d52dafe31620a31358c346502486cd43596b43b241c491a897fdd4f",
+    "output": "data/scores/fixed/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/fixed/qwen_audio_aha_7b.jsonl",
+    "source_sha256": "bbe4fa4e73cd49678928129cdb4812c7d7b487754a15d34912bd1713509a464e",
+    "output": "data/scores/fixed/qwen_audio_aha_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/fixed/step_audio2_mini.jsonl",
+    "source_sha256": "9302adca128baa5ef4c5a0c0531c2ee3ac62b5a175cd892d4af68db94924c334",
+    "output": "data/scores/fixed/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/fixed/mimo_audio_7b.jsonl",
+    "source_sha256": "ed443a6a5833061f92cbb75d6ce71c8606e430b9cc8e907b3d7f5aa26775c4c5",
+    "output": "data/scores/fixed/mimo_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/fixed/audio_flamingo_3.jsonl",
+    "source_sha256": "44d95ac1876a77493f23e59785821efc471be4b050e164cff05adba45e6b4572",
+    "output": "data/scores/fixed/audio_flamingo_3.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/fixed/qwen3_omni_30b.jsonl",
+    "source_sha256": "2956c08ee54324f66a0bd01e25bcd7209d1ba4f9da3fd40be64dd94d19b68411",
+    "output": "data/scores/fixed/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/prompt/qwen2_audio_7b.jsonl",
+    "source_sha256": "0069a451a5fb32f4fc85a762f1678b3a208b7a1b790e3ec2c067e44a80f78162",
+    "output": "data/scores/prompt/qwen2_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/prompt/qwen25_omni_3b.jsonl",
+    "source_sha256": "801f751af772dfd3138ceee0942b8c766158817b41c10545896b835f0750064d",
+    "output": "data/scores/prompt/qwen25_omni_3b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/prompt/qwen25_omni_7b.jsonl",
+    "source_sha256": "c555f4a92f73a6e6a7e6a8683fdccb92ee41dfea1245994b6c2a330045e392bb",
+    "output": "data/scores/prompt/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/prompt/qwen_audio_aha_7b.jsonl",
+    "source_sha256": "f1935a8f6e28769785921a645a0270900b1a3416ab7c547d873be51e5a51c778",
+    "output": "data/scores/prompt/qwen_audio_aha_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/prompt/step_audio2_mini.jsonl",
+    "source_sha256": "d8ac73ef0bbf56f31b2fe412d6a09fece31951a531fe38bf9823cb61df1969bd",
+    "output": "data/scores/prompt/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/prompt/mimo_audio_7b.jsonl",
+    "source_sha256": "13d8378a84b4016b69d63cfeff7104ef0ee330df7a5c200b4e98ee7f8504e1d6",
+    "output": "data/scores/prompt/mimo_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/prompt/audio_flamingo_3.jsonl",
+    "source_sha256": "52f12ecd14550c8ab4b67fcf38e0ef26b0b3d63c5f2dfa36bba6eb34e3eee502",
+    "output": "data/scores/prompt/audio_flamingo_3.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_formal_nonabsent_v1/prompt/qwen3_omni_30b.jsonl",
+    "source_sha256": "cb1edcf573d2c217a1c7af11c57dd298832dcc3adf398da343e6a6a6f070e032",
+    "output": "data/scores/prompt/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_absent_annotation_v1/absent/qwen2_audio_7b.jsonl",
+    "source_sha256": "375ad7cd85a86ef187abdfe7aa8459ae130fdac5de3d76f216c0739d5b5bb27b",
+    "output": "data/scores/absent/qwen2_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_absent_annotation_v1/absent/qwen25_omni_3b.jsonl",
+    "source_sha256": "ab361800ccd31c4dc492c422742d63c30bfaf1e0751ffeec78f56b233b982fad",
+    "output": "data/scores/absent/qwen25_omni_3b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_absent_annotation_v1/absent/qwen25_omni_7b.jsonl",
+    "source_sha256": "091a8d0b18fc1daa41b929d8802b8a4ebc5242b51434b4bc66ca8100e401255b",
+    "output": "data/scores/absent/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_absent_annotation_v1/absent/qwen_audio_aha_7b.jsonl",
+    "source_sha256": "49c35dee931f6d84c9cc0c0ffff19ec96151d092f6d3ee404dcaaea6df0f737d",
+    "output": "data/scores/absent/qwen_audio_aha_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_absent_annotation_v1/absent/step_audio2_mini.jsonl",
+    "source_sha256": "a8762045618f5fb625fed3269dc8970501241935ab1b7eeb9c929a0e25f90405",
+    "output": "data/scores/absent/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_absent_annotation_v1/absent/mimo_audio_7b.jsonl",
+    "source_sha256": "22b0335def5949623ad6b709fe2295e6a8bbcc8812030c8f0d0bcf8639d99812",
+    "output": "data/scores/absent/mimo_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_absent_annotation_v1/absent/audio_flamingo_3.jsonl",
+    "source_sha256": "e9335710ea934bc4f35b775d9fd5db3ebfefb85ee0905be32ccfa81219778e08",
+    "output": "data/scores/absent/audio_flamingo_3.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_20260901_R2/consolidated_absent_annotation_v1/absent/qwen3_omni_30b.jsonl",
+    "source_sha256": "9ee456236877da96a327acd6209736a0a80added92386372d8e2922f81cb22f7",
+    "output": "data/scores/absent/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen25_omni_7b/shard_00.jsonl",
+    "source_sha256": "2417fa34940266ca95e2febdcf873d35d898f82961e67022394a14fd2a396440",
+    "output": "data/scores/repair/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen25_omni_7b/shard_01.jsonl",
+    "source_sha256": "ebffda07d44561bc4592e3dfc3d7fc0f50dc39fc0f23bebaec142a912ca39473",
+    "output": "data/scores/repair/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen25_omni_7b/shard_02.jsonl",
+    "source_sha256": "72893c9464ab88649c410ae868bf0d8cecbb9f586613d9c463cb7ab701019cdc",
+    "output": "data/scores/repair/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen25_omni_7b/shard_03.jsonl",
+    "source_sha256": "162cef00d3023c6479a7ae77224c9ced09f8c113fa42f7f15a013499a7592e32",
+    "output": "data/scores/repair/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen25_omni_7b/shard_04.jsonl",
+    "source_sha256": "1dcab1fd25877f5977a0d6345f4d2e4bce710924f291dba7a634ae847e12d988",
+    "output": "data/scores/repair/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen25_omni_7b/shard_05.jsonl",
+    "source_sha256": "f999329dc534714f14f1ca4407670d70c590894e5f2933e0176351502035aad0",
+    "output": "data/scores/repair/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen25_omni_7b/shard_06.jsonl",
+    "source_sha256": "49fca64bb3cee346baf31273987d5126437e685574ff2cbe505c523f52e11407",
+    "output": "data/scores/repair/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen25_omni_7b/shard_07.jsonl",
+    "source_sha256": "21aa19ea4e8f9e730dc6746bc0cf8e4a65f8c9e5dd0de9a0bb215044f932a35f",
+    "output": "data/scores/repair/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/step_audio2_mini/shard_00.jsonl",
+    "source_sha256": "cac92c4868259eaed7facef31dcc90b3e0d4b4d2da04e6c86d8553e0882d1900",
+    "output": "data/scores/repair/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/step_audio2_mini/shard_01.jsonl",
+    "source_sha256": "aab6b5eb7acb04500859e3cbedee921cfb5ca668b8be50e509eb10ebeee65e3c",
+    "output": "data/scores/repair/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/step_audio2_mini/shard_02.jsonl",
+    "source_sha256": "45551ae29df01e5e0383cdba303a0baa9fb1c76d31b64103b80746e8ba545e12",
+    "output": "data/scores/repair/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/step_audio2_mini/shard_03.jsonl",
+    "source_sha256": "06625bd887408abb3c9ec491ca9c969814b73e9498be29fd0a838e33ff0c5f36",
+    "output": "data/scores/repair/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/step_audio2_mini/shard_04.jsonl",
+    "source_sha256": "8de51367aef87f6b2959a61d7c02e464d14325d2afebfe1939da04d160f969b6",
+    "output": "data/scores/repair/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/step_audio2_mini/shard_05.jsonl",
+    "source_sha256": "7a0a3a1a3082e67dc1caed1540c5c52c280ddafc670ae5c27343137a2972a8cf",
+    "output": "data/scores/repair/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/step_audio2_mini/shard_06.jsonl",
+    "source_sha256": "43c318636d0f2d74013e695fe2c1bc37bf11aa5fbaed5364e75dfa85e89f7b9c",
+    "output": "data/scores/repair/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/step_audio2_mini/shard_07.jsonl",
+    "source_sha256": "abc3dac774edda3484deb802134e50bc10b4ad4f80fd9d981b098f8915d8a86b",
+    "output": "data/scores/repair/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen3_omni_30b/shard_00.jsonl",
+    "source_sha256": "94a354ac9b439f08bc97d3be1beab411ac20598e0c2e7680e50b13d0741e36ee",
+    "output": "data/scores/repair/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen3_omni_30b/shard_01.jsonl",
+    "source_sha256": "c412633fb7bcf2a6eac7bcf6fa78b6a0f249d2cd981d7616b2e87620b9cf303d",
+    "output": "data/scores/repair/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen3_omni_30b/shard_02.jsonl",
+    "source_sha256": "84001d442f9abe195875ba6d260c8174a7e61f0d4fb4f446b0fccd2f5fb4ef22",
+    "output": "data/scores/repair/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen3_omni_30b/shard_03.jsonl",
+    "source_sha256": "d386acd9fc585d5fbb3132b2c19e5ab439997f13a386f793699e57cac0afedc2",
+    "output": "data/scores/repair/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen3_omni_30b/shard_04.jsonl",
+    "source_sha256": "231fa01fcfc19bf334e3775c88447f28f5aeb13d446c8688d56e416aea0fecac",
+    "output": "data/scores/repair/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen3_omni_30b/shard_05.jsonl",
+    "source_sha256": "1520d4ea7b0007a526b208b8763b88170f35d0325b44c549715e74f50292df6d",
+    "output": "data/scores/repair/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen3_omni_30b/shard_06.jsonl",
+    "source_sha256": "1b8d3a8443dfd4fe78118469329d0a42b7299c65faad208aac2c01eb856502d3",
+    "output": "data/scores/repair/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_REPAIR_20260914/scores/repair/qwen3_omni_30b/shard_07.jsonl",
+    "source_sha256": "abc9368ca38c7980c4aa8199664138ba3206d912b43f733ce9bebd6f800f3a6d",
+    "output": "data/scores/repair/qwen3_omni_30b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_SUBST_20260915/consolidated/subst/qwen2_audio_7b.jsonl",
+    "source_sha256": "b7aee1e1ed5b1aa5672311c3efa2ffdfa1ea876037a76f7fa44341ac58f966e5",
+    "output": "data/scores/subst/qwen2_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_SUBST_20260915/consolidated/subst/qwen25_omni_3b.jsonl",
+    "source_sha256": "411dd31b1c13289c6c0785e627dd3f1be69a93d6deb47ffbb8990e2803f198c8",
+    "output": "data/scores/subst/qwen25_omni_3b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_SUBST_20260915/consolidated/subst/qwen25_omni_7b.jsonl",
+    "source_sha256": "3b320ad3220f5f02aab233435b8585d7b378f34f79a9644e05d0a93ffc412081",
+    "output": "data/scores/subst/qwen25_omni_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_SUBST_20260915/consolidated/subst/qwen_audio_aha_7b.jsonl",
+    "source_sha256": "e89741daf522131d1c6410ea6700a6acc1e76f16ffaedb557beb5640dc73d767",
+    "output": "data/scores/subst/qwen_audio_aha_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_SUBST_20260915/consolidated/subst/step_audio2_mini.jsonl",
+    "source_sha256": "ed747c47f55d82458ed5a977d0710331938c396f0f042daf644cda55c21ef97c",
+    "output": "data/scores/subst/step_audio2_mini.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_SUBST_20260915/consolidated/subst/mimo_audio_7b.jsonl",
+    "source_sha256": "f1fd8593fd65e887baa98c226c4b73ec502c67b21b32c27f9654ab9b3330791f",
+    "output": "data/scores/subst/mimo_audio_7b.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_SUBST_20260915/consolidated/subst/audio_flamingo_3.jsonl",
+    "source_sha256": "ca1a67cd5e83cbd3886a55a864fd0816237945184714d27495e5a1096ceffeea",
+    "output": "data/scores/subst/audio_flamingo_3.jsonl.gz"
+  },
+  {
+    "source": "runs/QSAEC_ICASSP2027_SUBST_20260915/consolidated/subst/qwen3_omni_30b.jsonl",
+    "source_sha256": "28a2aa52abc26e4fa6eebba9f26130100d5f982cba45c1d9939c1794d4ad318e",
+    "output": "data/scores/subst/qwen3_omni_30b.jsonl.gz"
+  }
+]

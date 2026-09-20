@@ -1,0 +1,2 @@
+-r core.txt
+peft>=0.14

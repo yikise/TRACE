@@ -1,0 +1,293 @@
+{
+  "_package": {
+    "esc50_archive_sha256": "805afc618aff80eff0641d51311647871fead5807da68bb18e43a27db47a79ce",
+    "fixed_views": 256,
+    "generated_from": "source/PRI-experiments",
+    "panels": [
+      "baseline",
+      "global_rms",
+      "repair",
+      "subst",
+      "absent",
+      "prompt",
+      "fixed"
+    ],
+    "source_index_entries": 608,
+    "stats": {
+      "bytes": 39629693,
+      "unchanged": 613,
+      "written": 8
+    },
+    "stems": 192,
+    "substitutions": 160
+  },
+  "absent": {
+    "conditions": 512,
+    "manifest": "source/PRI-experiments/runs/QSAEC_ICASSP2027_20260901_R2/absent_manifest_annotation_disjoint_v1.jsonl",
+    "manifest_sha256": "6c67c27cdfaf0a7e0804f0a411bd13d624f8eb563fa6c855f046800274d6974d",
+    "provenance": {
+      "frozen_sidecar": {
+        "content": {
+          "assignment_frequency_range": [
+            1,
+            2
+          ],
+          "audit_verified_tuples": 0,
+          "conditions": 512,
+          "conditions_per_tuple": 8,
+          "manifest_sha256": "02dec5abf833763e0fbbfc3022a28621ab6d5e6f966d760d8feda55705de9609",
+          "ready_for_inference": false,
+          "selection_seed": 20260831,
+          "source_manifest": "source/PRI-experiments/panels/QSAEC_fixed_mixture_query_swap/fixed_mixture_manifest.jsonl",
+          "source_tuples": 64
+        },
+        "path": "source/PRI-experiments/runs/QSAEC_ICASSP2027_20260831/absent/ABSENT_FROZEN.json",
+        "sha256": "4a479cf63609f2d93cfe4f1c85edf431f7be17126246cb627ced9874ce531331"
+      }
+    },
+    "source_tuples": 64,
+    "views": 512
+  },
+  "baseline": {
+    "conditions": 3456,
+    "manifest": "source/PRI-experiments/runs/QSAEC_ICASSP2027_20260901_R2/audio/baseline/stress_manifest.jsonl",
+    "manifest_sha256": "cb9295ac4d16e0d06480218f8b68fcb005ae354230be9ea9ac23888e93dab1eb",
+    "provenance": {
+      "frozen_sidecar": {
+        "content": {
+          "audited_crop_roots": [],
+          "conditions": 3456,
+          "distractor_counts": [
+            1,
+            2
+          ],
+          "energy_variant": "baseline",
+          "manifest_sha256": "cb9295ac4d16e0d06480218f8b68fcb005ae354230be9ea9ac23888e93dab1eb",
+          "overlaps": [
+            "full",
+            "partial"
+          ],
+          "peak_limit": 0.99,
+          "rms_reference": null,
+          "snrs_db": [
+            -5.0,
+            0.0,
+            5.0
+          ],
+          "source_manifest": "source/PRI-experiments/runs/QSAEC_R00_64/metadata.jsonl",
+          "sources": 64,
+          "surrogate_seed": null,
+          "views": 11520
+        },
+        "path": "source/PRI-experiments/runs/QSAEC_ICASSP2027_20260901_R2/audio/baseline/FROZEN.json",
+        "sha256": "e85283c2da27f1e26beba726d132e7448ca42866b9f0a96587816453317c6cd5"
+      },
+      "legacy_frozen": {
+        "content": {
+          "audited_crop_roots": [],
+          "conditions": 3456,
+          "distractor_counts": [
+            1,
+            2
+          ],
+          "manifest_sha256": "a7870ce6c54a3ccab9b0b877630141e8649c9e97f11fb52f09fec6fe2d74de46",
+          "overlaps": [
+            "full",
+            "partial"
+          ],
+          "snrs_db": [
+            -5.0,
+            0.0,
+            5.0
+          ],
+          "source_manifest": "source/PRI-experiments/runs/QSAEC_R00_64/metadata.jsonl",
+          "sources": 64,
+          "views": 11520
+        },
+        "path": "source/PRI-experiments/runs/QSAEC_ICASSP_STRESS_R04/FROZEN.json",
+        "sha256": "0cf922c4d9f363a6f28ca79e85c670183f6b69477b59173441527fd080afbba5"
+      },
+      "legacy_reference": {
+        "path": "source/PRI-experiments/runs/QSAEC_ICASSP_STRESS_R04/stress_manifest.jsonl",
+        "sha256": "a7870ce6c54a3ccab9b0b877630141e8649c9e97f11fb52f09fec6fe2d74de46"
+      }
+    },
+    "source_tuples": 64,
+    "views": 11520
+  },
+  "fixed": {
+    "conditions": 192,
+    "manifest": "source/PRI-experiments/panels/QSAEC_fixed_mixture_query_swap/fixed_mixture_manifest.jsonl",
+    "manifest_sha256": "7c3d745891a4786782d544b0bfcac010769404f8436ee78e009bd0f540c18432",
+    "provenance": {
+      "frozen_sidecar": {
+        "content": {
+          "audit_roots": [
+            "source/PRI-experiments/audit_assets/acoustic_audit",
+            "source/PRI-experiments/audit_assets/acoustic_audit_extension_32"
+          ],
+          "bootstrap_unit": "source_tuple_id",
+          "full_hash_invariant": true,
+          "manifest_hash_algorithm": "sha256(raw JSONL bytes)",
+          "manifest_sha256": "7c3d745891a4786782d544b0bfcac010769404f8436ee78e009bd0f540c18432",
+          "mixture_design": {
+            "alignment": "all sources start at frame zero; short clips zero-padded at end",
+            "common_gain": 0.25,
+            "individual_source_equal_rms": true,
+            "overlap": "full",
+            "target_rms_before_common_gain": 0.06
+          },
+          "query_roles_per_tuple": 3,
+          "query_rows": 192,
+          "source_manifest": "source/PRI-experiments/runs/QSAEC_ICASSP_STRESS_R04/stress_manifest.jsonl",
+          "source_tuples": 64,
+          "views": 768,
+          "views_per_query": 4
+        },
+        "path": "source/PRI-experiments/panels/QSAEC_fixed_mixture_query_swap/FROZEN.json",
+        "sha256": "f02f51ac0cb5020d86433c2e7631deb6e40ed0dfac665bef7b13554b24ea33f2"
+      }
+    },
+    "source_tuples": 64,
+    "views": 768
+  },
+  "global_rms": {
+    "conditions": 3456,
+    "manifest": "source/PRI-experiments/runs/QSAEC_ICASSP2027_20260831/audio/global_rms/stress_manifest.jsonl",
+    "manifest_sha256": "63b8afc2572c7231e01afbffd6d9cbd5c9ada9128881e70bd99ea84d0af1a04a",
+    "provenance": {
+      "frozen_sidecar": {
+        "content": {
+          "audited_crop_roots": [],
+          "conditions": 3456,
+          "distractor_counts": [
+            1,
+            2
+          ],
+          "energy_variant": "global_rms",
+          "manifest_sha256": "63b8afc2572c7231e01afbffd6d9cbd5c9ada9128881e70bd99ea84d0af1a04a",
+          "overlaps": [
+            "full",
+            "partial"
+          ],
+          "peak_limit": 0.99,
+          "rms_reference": "original full mixture per condition",
+          "snrs_db": [
+            -5.0,
+            0.0,
+            5.0
+          ],
+          "source_manifest": "source/PRI-experiments/runs/QSAEC_R00_64/metadata.jsonl",
+          "sources": 64,
+          "surrogate_seed": null,
+          "views": 11520
+        },
+        "path": "source/PRI-experiments/runs/QSAEC_ICASSP2027_20260831/audio/global_rms/FROZEN.json",
+        "sha256": "b72df047e93aa4948dfafa19515cf0f2420e7d151644a255ff1797d7d9f21d73"
+      }
+    },
+    "source_tuples": 64,
+    "views": 11520
+  },
+  "prompt": {
+    "conditions": 1536,
+    "manifest": "source/PRI-experiments/panels/QSAEC_prompt_robustness/prompt_robustness_manifest.jsonl",
+    "manifest_sha256": "5513c40689a8090c8e23196e59a4c87119dbd5a0ecff3f64077057fb4a22c548",
+    "provenance": {},
+    "source_tuples": 64,
+    "views": 6144
+  },
+  "repair": {
+    "conditions": 2880,
+    "manifest": "source/PRI-experiments/runs/QSAEC_ICASSP2027_REPAIR_20260914/audio/repair/stress_manifest.jsonl",
+    "manifest_sha256": "ead57128b555f5623f929c475b4232e152c730b658852b46451e1e252acae593",
+    "provenance": {
+      "design": {
+        "path": "source/PRI-experiments/runs/QSAEC_ICASSP2027_REPAIR_20260914/design/repair_design.jsonl",
+        "sha256": "614b9d8f17da4d64e530231861b1bca453b94d19540cc242845b2132728d241c"
+      },
+      "frozen_sidecar": {
+        "content": {
+          "conditions": 2880,
+          "design": {
+            "constraints": "distractor category != target category; distractors mutually distinct; original partners excluded; sampling blind to model outcomes",
+            "repairs_per_role": 5,
+            "seed": 20260914,
+            "source_metadata": "source/PRI-experiments/runs/QSAEC_R00_64/metadata.jsonl"
+          },
+          "distractor_counts": [
+            2
+          ],
+          "energy_variant": "baseline",
+          "manifest_sha256": "ead57128b555f5623f929c475b4232e152c730b658852b46451e1e252acae593",
+          "overlaps": [
+            "full"
+          ],
+          "peak_limit": 0.99,
+          "shared_safety_gain_conditions": 0,
+          "snrs_db": [
+            -5.0,
+            0.0,
+            5.0
+          ],
+          "sources": 960,
+          "views": 11520
+        },
+        "path": "source/PRI-experiments/runs/QSAEC_ICASSP2027_REPAIR_20260914/audio/repair/FROZEN.json",
+        "sha256": "7c6000368e238bf865a355d6ce8db14dcc183e9a9f194764540616f4576efe34"
+      }
+    },
+    "source_tuples": 64,
+    "views": 11520
+  },
+  "subst": {
+    "conditions": 2880,
+    "manifest": "source/PRI-experiments/runs/QSAEC_ICASSP2027_SUBST_20260915/audio/subst/stress_manifest.jsonl",
+    "manifest_sha256": "0280d10191e2db79e4c1567926c3a7456a3fc5d62a251fbf06efd6491e282768",
+    "provenance": {
+      "design": {
+        "path": "source/PRI-experiments/runs/QSAEC_ICASSP2027_SUBST_20260915/design/subst_design.jsonl",
+        "sha256": "8e0730295478746ed66824bff9ae42363e91c724a2a2862036828195d971989d"
+      },
+      "frozen_sidecar": {
+        "content": {
+          "audited_crop_roots": [
+            "source/PRI-experiments/audit_assets/acoustic_audit",
+            "source/PRI-experiments/audit_assets/acoustic_audit_extension_32"
+          ],
+          "conditions": 2880,
+          "design": "source/PRI-experiments/runs/QSAEC_ICASSP2027_SUBST_20260915/design/subst_design.jsonl",
+          "distractor_counts": [
+            1,
+            2
+          ],
+          "energy_variant": "baseline",
+          "frozen_manifest": "source/PRI-experiments/runs/QSAEC_ICASSP2027_20260901_R2/audio/baseline/stress_manifest.jsonl",
+          "manifest_sha256": "0280d10191e2db79e4c1567926c3a7456a3fc5d62a251fbf06efd6491e282768",
+          "overlaps": [
+            "full",
+            "partial"
+          ],
+          "peak_limit": 0.99,
+          "rms_matched_to_original_target": true,
+          "rms_reference": null,
+          "snrs_db": [
+            -5.0,
+            0.0,
+            5.0
+          ],
+          "source_manifest": "source/PRI-experiments/runs/QSAEC_R00_64/metadata.jsonl",
+          "sources": 42,
+          "substitute_clips": 160,
+          "substitute_roles": 56,
+          "surrogate_seed": null,
+          "views": 9600
+        },
+        "path": "source/PRI-experiments/runs/QSAEC_ICASSP2027_SUBST_20260915/audio/subst/FROZEN.json",
+        "sha256": "d5ab1e5e4dca39270d5c379650c4419fc4a8cd0d8e7d141d630acc9eebead090"
+      }
+    },
+    "source_tuples": 42,
+    "views": 9600
+  }
+}

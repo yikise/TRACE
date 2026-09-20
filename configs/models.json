@@ -1,0 +1,75 @@
+{
+  "models": [
+    {
+      "model_id": "qwen2_audio_7b",
+      "adapter": "qwen2_audio",
+      "runtime": "core",
+      "config_sha256": "ab122e112e2450f10cec59216185bd519ccd7529c79d4c1c00255d43b97a037d",
+      "checkpoint_directory_name": "Qwen2-Audio-7B-Instruct",
+      "extra_required_arguments": []
+    },
+    {
+      "model_id": "qwen25_omni_3b",
+      "adapter": "qwen",
+      "runtime": "core",
+      "config_sha256": "20790f362c37a1718a3e764f597ae33dfc20177399762018dffaabf8321d4dd1",
+      "checkpoint_directory_name": "Qwen2.5-Omni-3B",
+      "extra_required_arguments": []
+    },
+    {
+      "model_id": "qwen25_omni_7b",
+      "adapter": "qwen",
+      "runtime": "core",
+      "config_sha256": "f85f5a078951471e32d6ce5dd169acf619e3480c83daf195e5016ef3eb89b1a9",
+      "checkpoint_directory_name": "Qwen2.5-Omni-7B",
+      "extra_required_arguments": []
+    },
+    {
+      "model_id": "qwen_audio_aha_7b",
+      "adapter": "qwen",
+      "runtime": "core",
+      "config_sha256": "f85f5a078951471e32d6ce5dd169acf619e3480c83daf195e5016ef3eb89b1a9",
+      "checkpoint_directory_name": "Qwen2.5-Omni-7B",
+      "extra_required_arguments": [
+        "--lora-path"
+      ],
+      "adapter_config_sha256": "3cb5cfb0079325d58abd39a88eff7023d9a169e6f62fb17596c7d7a2a684dad0"
+    },
+    {
+      "model_id": "step_audio2_mini",
+      "adapter": "step_audio2",
+      "runtime": "core",
+      "config_sha256": "bb3bc7cbfc4f11f7e32c55709b66cf76eb8a80e72856944409fabe1e13a300f5",
+      "checkpoint_directory_name": "Step-Audio-2-mini",
+      "extra_required_arguments": []
+    },
+    {
+      "model_id": "mimo_audio_7b",
+      "adapter": "mimo_audio",
+      "runtime": "mimo_audio",
+      "config_sha256": "43f610f3f6b6ff92b8e11e27ed0a81a72a1f247423d78fb958d538f2e7fded03",
+      "checkpoint_directory_name": "MiMo-Audio-7B-Instruct",
+      "extra_required_arguments": [
+        "--tokenizer-path"
+      ],
+      "upstream_code_commit": "691ce54144a6844cc641fd96046a6ba20776c8b0"
+    },
+    {
+      "model_id": "audio_flamingo_3",
+      "adapter": "audio_flamingo_3_hf",
+      "runtime": "audio_flamingo_3",
+      "config_sha256": "547254e919aad4846ddd90340f30a9a935c3c4d033fead9cc1121ecdd3b13ef7",
+      "checkpoint_directory_name": "audio-flamingo-3-hf",
+      "extra_required_arguments": []
+    },
+    {
+      "model_id": "qwen3_omni_30b",
+      "adapter": "qwen3_omni",
+      "runtime": "core",
+      "config_sha256": "eab5093d47807aaf894119506b238b2b1cee70d08456e894fee9a012d88f2e0d",
+      "checkpoint_directory_name": "Qwen3-Omni-30B-A3B-Instruct",
+      "extra_required_arguments": []
+    }
+  ],
+  "note": "Checkpoint names identify frozen configurations, not downloadable URLs. Supply local paths. Original weight revisions were not fully recorded; config hashes alone do not identify all weights."
+}

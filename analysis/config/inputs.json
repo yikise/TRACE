@@ -1,0 +1,182 @@
+{
+  "schema": 1,
+  "generated_by": "Frozen final-paper input export; source hashes retained below.",
+  "role": "frozen inputs for the TRACE number reproduction",
+  "source_dataset_provenance": [
+    "frozen-export:consolidated_formal_nonabsent_v1 (eight-model panel)",
+    "frozen-export:re-paired backgrounds (three-model panel)",
+    "frozen-export:target-substitution aggregates"
+  ],
+  "path_policy": "Host paths replaced by provenance labels. Validate the release using python scripts/verify_release.py from repository root.",
+  "staging": "run_all.py applies inputs/frozen/* to generated/ before running, so generated/ holds the frozen inputs plus fresh outputs. The lists below separate the two.",
+  "inputs": [
+    {
+      "name": "counterfactual_inputs.json",
+      "path": "inputs/frozen/counterfactual_inputs.json",
+      "bytes": 30455250,
+      "sha256": "576b7f1211f8e7d6043071f604f69aa7ed1c60242b76e880661860a6546d6458",
+      "staged_to": "generated/counterfactual_inputs.json",
+      "transform": "redact",
+      "note": "eight-model frozen export; all three panels (baseline/global_rms/phase_scrambled) are read by build_attribution_numbers + build_revision_numbers",
+      "source_sha256": "cb5967c01a78224c9d393a9512773c2fe8f2865c8bf6df194b57e0a9bf7fa1cb"
+    },
+    {
+      "name": "repair_inputs.json",
+      "path": "inputs/frozen/repair_inputs.json",
+      "bytes": 3854263,
+      "sha256": "864b07b8c95f4b198b46e627c01a7a192c6744e6e8abac810d79a68e0d80dc4c",
+      "staged_to": "generated/repair_inputs.json",
+      "transform": "redact",
+      "note": "three-model re-paired-background export; read by build_repair_numbers, build_category_structure and build_utility_numbers",
+      "source_sha256": "0c42ce1989004fbfb77cdd5503d3c44e1b885a21a7b670945ab9910649229759"
+    },
+    {
+      "name": "ten_model_panel.json",
+      "path": "inputs/frozen/ten_model_panel.json",
+      "bytes": 14133460,
+      "sha256": "929f491e701386e5130cbbf9aa18111f99577a095d4208c72ba937e853c81e20",
+      "staged_to": "generated/ten_model_panel.json",
+      "transform": "panel",
+      "note": "ten-model panel. Only panels.baseline (build_robust_numbers) and the model lists (build_category_structure) are read, so global_rms and phase_scrambled are not shipped. All ten models are retained - see check_model_filter.py",
+      "source_sha256": "0ceef7fffdbcc9a1e52688dea7424ed9ae4ec64dfa911258485cd12b0ce41a15"
+    },
+    {
+      "name": "view_energies.json",
+      "path": "inputs/frozen/view_energies.json",
+      "bytes": 2201693,
+      "sha256": "05a63c5c054e185b0d29af91296c13d67b04b1d2f8fa1d73344c337a762ef095",
+      "staged_to": "generated/view_energies.json",
+      "transform": "asis",
+      "note": "per-view stem RMS for the 3456 probe conditions; read by build_probe_numbers",
+      "source_sha256": "05a63c5c054e185b0d29af91296c13d67b04b1d2f8fa1d73344c337a762ef095"
+    },
+    {
+      "name": "subst_aggregates.json",
+      "path": "inputs/frozen/subst_aggregates.json",
+      "bytes": 76762,
+      "sha256": "f304734677a09c66170e2d9556851dcd43aa490f60f81b22db2a2fca16e73255",
+      "staged_to": "generated/subst_aggregates.json",
+      "transform": "redact",
+      "note": "sufficient statistics for the target-substitution panel; read by build_subst_numbers. Only pooled counters ship: the per-unit target arms are not needed for any reported statistic, which is the documented boundary of this analysis",
+      "source_sha256": "30466e91e565462fc106ec460dc73fe6eac7e667b44df6ae4397e3390a45e30f"
+    },
+    {
+      "name": "fixed_panel.json",
+      "path": "inputs/frozen/fixed_panel.json",
+      "bytes": 755460,
+      "sha256": "52f665e74f53656e76773a3eabd3f79e728c511c73d0a213903c3cb178155a7e",
+      "staged_to": "generated/fixed_panel.json",
+      "transform": "asis",
+      "note": "present arm, ten models x 192 questions; read by build_matched_numbers and by build_utility_numbers for ground-truth y_present",
+      "source_sha256": "52f665e74f53656e76773a3eabd3f79e728c511c73d0a213903c3cb178155a7e"
+    },
+    {
+      "name": "absent_inputs.jsonl",
+      "path": "inputs/frozen/absent_inputs.jsonl",
+      "bytes": 4193758,
+      "sha256": "091d579e61fd81d507286a135645a1a140d3218b11ccb9a3fd34ee729a2c19f3",
+      "staged_to": "generated/absent_inputs.jsonl",
+      "transform": "redact",
+      "note": "absent arm, ten models x 512 conditions; read by build_matched_numbers",
+      "source_sha256": "a21ea13756ab3d46297043b7866f8e792ba827eb8eb086fb878726171fe4dbb3"
+    },
+    {
+      "name": "absent_manifest.jsonl",
+      "path": "inputs/frozen/absent_manifest.jsonl",
+      "bytes": 619000,
+      "sha256": "1652af3634065fbcaa6849ebd0b09c12ec9d1227e8250a40cfb31d9980756297",
+      "staged_to": "generated/absent_manifest.jsonl",
+      "transform": "redact",
+      "note": "ground truth for the 512 absent conditions; read by build_matched_numbers",
+      "source_sha256": "6c67c27cdfaf0a7e0804f0a411bd13d624f8eb563fa6c855f046800274d6974d"
+    },
+    {
+      "name": "position_bias.json",
+      "path": "inputs/frozen/position_bias.json",
+      "bytes": 3195,
+      "sha256": "aa681a2a83b2cdb7e75bfaf5782a170523c533e01869c8c18e2c9de4898817c4",
+      "staged_to": "generated/position_bias.json",
+      "transform": "asis",
+      "note": "answer-key asymmetry and the degeneracy flags behind the clean-model set; read by build_robust_numbers",
+      "source_sha256": "aa681a2a83b2cdb7e75bfaf5782a170523c533e01869c8c18e2c9de4898817c4"
+    },
+    {
+      "name": "counterfactual_interface_inputs.json",
+      "path": "inputs/frozen/counterfactual_interface_inputs.json",
+      "bytes": 10293819,
+      "sha256": "ddb37aeb1dc4779172dd739d17d6c228114905db29f43c224d810b5830ec3d6d",
+      "staged_to": "generated/counterfactual_interface_inputs.json",
+      "transform": "redact",
+      "note": "fixed-mixture query-swap panel, eight models x 64 tuples x 3 roles x 4 wordings x 2 mappings; read by build_counterfactual_interface",
+      "source_sha256": "3d9b32329dafcf2642dc80d8d216cc93d3d4e17d44a099f1b996f63917b44635"
+    },
+    {
+      "name": "case_audio_creak/full.wav",
+      "path": "data/case_audio_creak/full.wav",
+      "bytes": 352844,
+      "sha256": "dd4b213c4dabf21d6f4a16e73c7537e0059685716073fa6475642bed5e8d2902",
+      "staged_to": "data/case_audio_creak/full.wav",
+      "transform": "asis",
+      "note": "frozen rendered views of one measured mixture, used by Fig. 1(a)",
+      "source_sha256": null
+    },
+    {
+      "name": "case_audio_creak/remove_target.wav",
+      "path": "data/case_audio_creak/remove_target.wav",
+      "bytes": 352844,
+      "sha256": "00fe6fe989c9713964c4217eb40c9537aaec01595191f8a8c0d271ade8f54f60",
+      "staged_to": "data/case_audio_creak/remove_target.wav",
+      "transform": "asis",
+      "note": "frozen rendered views of one measured mixture, used by Fig. 1(a)",
+      "source_sha256": null
+    },
+    {
+      "name": "case_audio_creak/remove_off_1.wav",
+      "path": "data/case_audio_creak/remove_off_1.wav",
+      "bytes": 352844,
+      "sha256": "de573426ab2e16cad997577fd1841b59d62a41493b072583b6aa4fcc1355a477",
+      "staged_to": "data/case_audio_creak/remove_off_1.wav",
+      "transform": "asis",
+      "note": "frozen rendered views of one measured mixture, used by Fig. 1(a)",
+      "source_sha256": null
+    }
+  ],
+  "outputs": [
+    "attribution_numbers.tex",
+    "attribution_table.tex",
+    "attribution_results.json",
+    "attribution_checks.tex",
+    "attribution_contrasts.tex",
+    "attribution_case.tex",
+    "attribution_table_fmt.tex",
+    "revision_numbers.tex",
+    "revision_results.json",
+    "repair_numbers.tex",
+    "repair_results.json",
+    "category_structure.tex",
+    "category_structure.json",
+    "category_table.tex",
+    "probe_numbers.tex",
+    "probe_results.json",
+    "utility_numbers.tex",
+    "utility_results.json",
+    "subst_numbers.tex",
+    "subst_results.json",
+    "robust_numbers.tex",
+    "robust_results.json",
+    "matched_numbers.tex",
+    "matched_2x2.json",
+    "counterfactual_interface_numbers.tex",
+    "counterfactual_interface_results.json",
+    "counterfactual_interface_table.tex",
+    "risk_table.tex"
+  ],
+  "figures": [
+    "attribution_overview.pdf",
+    "attribution_overview.png"
+  ],
+  "notes": [
+    "probe_boot.json is deliberately NOT shipped: its producer is outside the reproduction set, so its bootstrap intervals cannot be re-derived here. build_probe_numbers.py recomputes the oracle/shortcut/loudness point estimates (0% / 100% / 45.0%) instead.",
+    "No LaTeX is compiled and no model inference is run by this analysis."
+  ]
+}
