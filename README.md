@@ -188,7 +188,7 @@ The citation does not assert an accepted venue or publication year. Internal run
 ```bibtex
 @misc{zhang_trace,
   title  = {Right Answers, Inconsistent Evidence: Source-Level Counterfactual Auditing of Audio-Language Models},
-  author = {Zhang, Yi and Zhang, Yipeng and Du, Hongwei},
+  author = {Zhang, Yi and Li, Yi and Du, Hongwei},
   url    = {https://github.com/yikise/TRACE}
 }
 ```
