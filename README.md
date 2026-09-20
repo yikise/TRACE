@@ -2,7 +2,7 @@
 
 **Right Answers, Inconsistent Evidence: Source-Level Counterfactual Auditing of Audio-Language Models**
 
-Yi Zhang, Yipeng Zhang, Hongwei Du
+Yi Zhang, Yi Li, Hongwei Du
 
 TRACE audits whether an audio-language model consistently ranks target-present audio above a source-matched target-absent view—even when its original answer is correct.
 
